@@ -7,6 +7,13 @@
 # 添加额外插件
 git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
+git clone --depth=1 https://github.com/kenzok8/small package/luci-app-bypass
+git clone --depth=1 https://github.com/kenzok8/small package/luci-app-passwall
+git clone --depth=1 https://github.com/kenzok8/small package/luci-app-passwall2
+git clone --depth=1 https://github.com/kenzok8/small package/luci-app-ssr-plus
+git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/luci-app-lucky
+git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/luci-app-store
+
 #
 # 主题
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
