@@ -11,7 +11,7 @@ git clone --depth=1 https://github.com/kenzok8/small package/luci-app-bypass
 git clone --depth=1 https://github.com/kenzok8/small package/luci-app-passwall
 git clone --depth=1 https://github.com/kenzok8/small package/luci-app-passwall2
 git clone --depth=1 https://github.com/kenzok8/small package/luci-app-ssr-plus
-git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/luci-app-lucky
+#git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/luci-app-lucky
 git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/luci-app-store
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 
