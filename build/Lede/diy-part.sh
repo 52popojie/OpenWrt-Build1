@@ -16,7 +16,7 @@ git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lu
 
 #
 # 主题
-git clone --depth=1 -b 18.06 https://github.com/kenzok78/luci-theme-argone package/luci-theme-argone
+git clone --depth=1 https://github.com/kenzok78/luci-theme-argone package/luci-theme-argone
 git clone --depth=1 https://github.com/kenzok78/luci-app-argone-config package/luci-app-argone-config
 #
 # SmartDNS
