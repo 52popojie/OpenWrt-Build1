@@ -14,6 +14,18 @@ git clone --depth=1 https://github.com/kenzok8/small package/luci-app-ssr-plus
 git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/luci-app-store
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 
+#
+# 主题
+git clone --depth=1 -b 18.06 https://github.com/kenzok78/luci-theme-argone package/luci-theme-argone
+git clone --depth=1 https://github.com/kenzok78/luci-app-argone-config package/luci-app-argone-config
+#
+# SmartDNS
+git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
+
+# MosDNS
+git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.2.2"            # 修改openwrt后台地址(填0为关闭)
