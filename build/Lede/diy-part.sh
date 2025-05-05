@@ -4,6 +4,16 @@
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
+# 添加额外插件
+git clone --depth=1 -b openwrt-18.06 https://github.com/tty228/luci-app-wechatpush package/luci-app-serverchan
+git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
+git clone --depth=1 https://github.com/kenzok8/small package/luci-app-bypass
+git clone --depth=1 https://github.com/kenzok8/small package/luci-app-passwall
+git clone --depth=1 https://github.com/kenzok8/small package/luci-app-passwall2
+git clone --depth=1 https://github.com/kenzok8/small package/luci-app-ssr-plus
+git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/luci-app-store
+git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
+
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.2.2"            # 修改openwrt后台地址(填0为关闭)
