@@ -23,6 +23,9 @@ git clone --depth=1 https://github.com/kenzok78/luci-app-argone-config package/l
 #git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
 #git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 
+git clone --depth=1 https://github.com/shidahuilang/openwrt-package/tree/Lede/luci-app-smartdns
+git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
+
 # MosDNS
 git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
